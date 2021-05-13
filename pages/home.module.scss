@@ -1,0 +1,42 @@
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #fff, rgb(208, 219, 255)90%);
+
+    .peso, .altura {
+        padding: 1rem;
+        text-align: right;
+    }
+
+    TextField {
+        text-align: right;
+    }
+
+    .label {
+        text-align: right;
+        font-weight: 600;
+    }
+
+    .button {
+        background: transparent;
+    }
+
+    p {
+        width: 15rem;
+        height: 11rem;
+        bottom: 0;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        margin-top: 2rem;
+
+        span {
+            font-weight: bolder;
+            color: #ccc;
+        }
+    }
+}
